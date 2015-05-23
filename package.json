@@ -1,0 +1,16 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^0.21.2",
+    "eslint-plugin-hapi": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
+  "license": "ISC"
+}
