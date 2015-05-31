@@ -1,13 +1,15 @@
 {
   "name": "node-hello-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {
     "eslint": "^0.21.2",
     "eslint-plugin-hapi": "^1.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
