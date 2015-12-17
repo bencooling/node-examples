@@ -3,9 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "lodash": "^3.9.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "^4.2.2"
   },
