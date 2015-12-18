@@ -4,3 +4,9 @@ test('dummy test', function (t) {
   t.pass('dummy test passed');
   t.end();
 });
+
+
+test('dummy test 2', function (t) {
+  t.pass('dummy test 2 passed');
+  t.end();
+});
