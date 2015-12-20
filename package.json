@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "istanbul": "^0.4.1",
     "tape": "^4.2.2"
   },
   "scripts": {
