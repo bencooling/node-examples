@@ -22,7 +22,16 @@
 `brew install wrk`
 
 **run wrk**  
-duration: 5 seconds
+duration: 10 seconds
 threads: 12
 HTTP connections open 400 .
-`wrk -t12 -c400 -d30s http://127.0.0.1:5000`
+`wrk -t12 -c400 -d10s http://127.0.0.1:5000`
+
+**run ab**  
+-n: 1000 requests
+-c: 20 concurrent requests
+`ab -n 1000 -c 20 http://127.0.0.1:5000/`
+
+
+**number of occurance in file**  
+`grep -c "echo" FILE`
