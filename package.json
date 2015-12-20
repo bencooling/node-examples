@@ -9,7 +9,7 @@
     "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "node test"
+    "test": "istanbul cover test > test.tap && istanbul report clover"
   },
   "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
   "license": "ISC"
