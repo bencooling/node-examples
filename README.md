@@ -1,6 +1,8 @@
 # hello world
 
 ![Build Status](https://jenkins.bcooling.com.au/job/node-hello-world/badge/icon)
+![Build Status](http://jenkins.bcooling.com.au/job/node-hello-world/badge/icon)
+[![Build Status](http://jenkins.bcooling.com.au/job/node-hello-world/badge/icon)](http://jenkins.bcooling.com.au/job/node-hello-world/badge/icon)
 
 
 - Very simple Hello World Node app using only core Node.js modules (http, cluster etc)
