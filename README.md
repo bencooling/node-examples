@@ -35,5 +35,5 @@ HTTP connections open 400 .
 `ab -n 1000 -c 20 http://127.0.0.1:5000/`
 
 
-**number of occurance in file**  
+**number of occurrence in file**  
 `grep -c "echo" FILE`
