@@ -1,0 +1,14 @@
+[local]
+localhost
+
+[local:vars]
+ansible_connection=local
+
+[digitalocean]
+188.166.214.239
+
+[digitalocean:vars]
+ansible_connection=ssh
+ansible_ssh_user=root
+ansible_ssh_private_key_file=~/.ssh/ss_rsa
+ansible_ssh_port=22

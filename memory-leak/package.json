@@ -1,0 +1,15 @@
+{
+  "name": "memory-leak",
+  "version": "1.0.0",
+  "description": "## commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --expose-gc index.js"
+  },
+  "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
+  "license": "ISC",
+  "dependencies": {
+    "heapdump": "^0.3.7"
+  }
+}

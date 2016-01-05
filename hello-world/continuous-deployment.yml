@@ -1,0 +1,12 @@
+---
+- hosts: digitalocean
+  sudo: yes
+  tasks:
+  - name: Remove old document root
+    file: path=/var/www/hello-world.old state=absent
+  - name: Rename current document root to old
+    command: mv /var/www/hello-world /var/www/hello-world.old
+  - name: unarchive tarball as fresh document root
+    unarchive: src=/tmp/hello-world.tar.gz dest=/var/www/hello-world
+  # - name: restart application
+  # - name: restart nginx?
