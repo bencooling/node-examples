@@ -1,6 +1,9 @@
 # memory-leak
 
-## commands
+## examples
+
+
+### object creation
 
 **Run memory leak**  
 `node --expose-gc memory-leak/index.js`
@@ -10,3 +13,10 @@
 node-inspector
 node --debug --expose-gc memory-leak/index.js
 ```
+
+
+### array of buffers with top
+
+`node top.js`
+
+`top` and then type `o` followed by `mem`

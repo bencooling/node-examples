@@ -1,0 +1,23 @@
+{
+  "name": "tape-istanbul",
+  "version": "1.0.0",
+  "description": "argg",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet",
+    "cover": "istanbul cover --report text --report html test.js",
+    "cover-es6": "babel-node node_modules/.bin/isparta cover --report text --report html test.js",
+    "start": "babel-node index.js"
+  },
+  "keywords": [],
+  "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "faucet": "0.0.1",
+    "isparta": "^4.0.0"
+  }
+}

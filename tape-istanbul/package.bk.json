@@ -1,0 +1,13 @@
+{
+  "name": "tape-istanbul",
+  "version": "1.0.0",
+  "description": "argg",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node ./test.js | faucet",
+    "cover": "babel-node node_modules/.bin/isparta cover --report text --report html ./test/*_tape.js",
+  },
+  "keywords": [],
+  "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
+  "license": "ISC"
+}

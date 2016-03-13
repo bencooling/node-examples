@@ -1,0 +1,15 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
+  "license": "ISC",
+  "dependencies": {
+    "sinon": "^1.17.3",
+    "tape": "^4.4.0"
+  }
+}
